@@ -1,4 +1,4 @@
-<?php $STATIC_URL = "./"; ?>
+<?php require("config.php"); ?>
 
       <footer>
             <div class="center">
