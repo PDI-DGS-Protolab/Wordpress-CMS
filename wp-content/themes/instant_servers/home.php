@@ -1,4 +1,4 @@
-<?php $STATIC_URL = "./"; ?>
+<?php require("index.php"); ?>
 <?php include_once("header.php"); ?>
 
         <div id="main">
@@ -27,7 +27,7 @@
                 <div id="intro" class="clearfix intro-page">
                     <div class="left">
                         <h2>Instant Servers</h2>
-                        <img class="instant_server" src="<?php $STATIC_URL . 'img/illustration_instantserver.png'?>" alt="Instant Servers" title="Instant Servers"/>
+                        <img class="instant_server" src="<?php echo $STATIC_URL . 'img/illustration_instantserver.png'?>" alt="Instant Servers" title="Instant Servers"/>
                     </div>
 
                     <div class="right">
@@ -43,7 +43,7 @@
                  <div id="fullul-wrap" class="best-return">
                         <div id="fullul">
                         <div id="fullul-img">
-                            <img src="<?php $STATIC_URL . 'img/guaranteed-reliability.png'?>" >
+                            <img src="<?php echo $STATIC_URL . 'img/guaranteed-reliability.png'?>" >
                         </div>
                         <div id="fullul-texto">
                                 <h4>Best Return</h4>
@@ -56,9 +56,9 @@
                     </div>
                     <ul style="display:none;">
                         <!-- precarga de imagenes !-->
-                        <li><img src="<?php $STATIC_URL . 'img/high-performance.png'?>" alt="slider"></li>
-                        <li><img src="<?php $STATIC_URL . 'img/guaranteed-reliability.png'?>" alt="slider"></li>
-                        <li><img src="<?php $STATIC_URL . 'img/best-run-slide-img.png'?>" alt="slider"></li>
+                        <li><img src="<?php echo $STATIC_URL . 'img/high-performance.png'?>" alt="slider"></li>
+                        <li><img src="<?php echo $STATIC_URL . 'img/guaranteed-reliability.png'?>" alt="slider"></li>
+                        <li><img src="<?php echo $STATIC_URL . 'img/best-run-slide-img.png'?>" alt="slider"></li>
                     </ul>
                     </div>
 
@@ -79,13 +79,13 @@
 
 
                     <div class="box-container left">
-                        <a href="files/TelefonicaDigital_InstantServers_CS_UK_v8website.pdf"><img src="<?php $STATIC_URL . 'img/casestudy.png'?>" alt="" class="left" /></a>
+                        <a href="files/TelefonicaDigital_InstantServers_CS_UK_v8website.pdf"><img src="<?php echo $STATIC_URL . 'img/casestudy.png'?>" alt="" class="left" /></a>
                         <h4><a href="files/TelefonicaDigital_InstantServers_CS_UK_v8website.pdf" target="_blank">Drive mission-critical mobile apps for transport enterprise</a></h4>
                         <p>A case study on how we helped a major UK rail infrastructure provider improve business agility <a href="files/TelefonicaDigital_InstantServers_CS_UK_v8website.pdf" target="_blank" class="mas-li">+</a></p>
                     </div>
 
                     <div class="box-container left">
-                        <a href="files/TelefonicaDigital_InstantServers_WP_UK_v10website.pdf"><img src="<?php $STATIC_URL . 'img/whitepaper.png'?>" alt="" class="left" /></a>
+                        <a href="files/TelefonicaDigital_InstantServers_WP_UK_v10website.pdf"><img src="<?php echo $STATIC_URL . 'img/whitepaper.png'?>" alt="" class="left" /></a>
                         <h4><a href="files/TelefonicaDigital_InstantServers_WP_UK_v10website.pdf" target="_blank">Choosing an enterprise-grade platform for business-critical cloud services & mobile applications</a></h4>
                         <p>A white paper on how Bring Your Own Device, dynamic cloud-based services and mission-critical mobile apps demands a new approach <a href="files/TelefonicaDigital_InstantServers_WP_UK_v10website.pdf" target="_blank" class="mas-li">+</a></p>
                     </div>
