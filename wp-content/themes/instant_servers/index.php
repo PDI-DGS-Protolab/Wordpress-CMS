@@ -1,1 +1,1 @@
-<?php $STATIC_URL = "./"; ?>
+<?php $STATIC_URL = "/wp-content/themes/instant_servers/"; ?>
