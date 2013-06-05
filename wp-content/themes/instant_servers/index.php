@@ -1,1 +1,3 @@
-<?php $STATIC_URL = "/wp-content/themes/instant_servers/"; ?>
+<?php
+    $STATIC_URL = "/wp-content/themes/instant_servers/";
+?>
