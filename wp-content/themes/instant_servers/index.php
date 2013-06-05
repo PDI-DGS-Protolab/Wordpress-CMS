@@ -1,3 +1,1 @@
-<?php
-    $STATIC_URL = "/wp-content/themes/instant_servers/";
-?>
+<?php require("home.php"); ?>

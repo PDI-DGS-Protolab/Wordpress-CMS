@@ -1,4 +1,4 @@
-<?php require("index.php"); ?>
+<?php require("config.php"); ?>
 <?php include_once("header.php"); ?>
 
         <div id="main">

@@ -1,4 +1,4 @@
-<?php require("index.php"); ?>
+<?php require("config.php"); ?>
 
       <footer>
             <div class="center">
